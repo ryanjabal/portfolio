@@ -23,7 +23,7 @@ export default function AboutPage() {
             how things are made and how they reach the people who need them,
             which has me wandering between product design, technology, and
             business depending on the day. This site holds my design work for
-            now, with more on the way as I keep exploring!
+            now, with more on the way!
           </p>
         </ScrollReveal>
       </div>
