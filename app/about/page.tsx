@@ -18,12 +18,18 @@ export default function AboutPage() {
       <div className="mt-12 space-y-8 text-base leading-relaxed">
         <ScrollReveal delay={100}>
           <p className="text-muted">
-            I&apos;m Ryan, a Notre Dame student from the Bay Area studying
-            business, AI analytics and industrial design. I&apos;m curious about
-            how things are made and how they reach the people who need them,
-            which has me wandering between product design, technology, and
-            business depending on the day. This site holds my design work for
-            now, with more on the way!
+            I&apos;m Ryan, a Notre Dame undergrad from the San Francisco Bay
+            Area studying Business, AI analytics, and Industrial Design.
+            I&apos;m drawn to the strategy side of how products and companies
+            take shape, especially in AI and tech, and how they&apos;re funded,
+            taken to market, and adopted by the people they&apos;re meant for.
+            Design is where I first discovered I like building and creating,
+            and it&apos;s still the part of my brain I trust most when I want
+            to think differently, especially about who a product is actually
+            for. That question gets harder and more important as AI shapes
+            more of what gets made, and I spend a lot of time building with
+            these tools to see where they help and where they don&apos;t. This
+            site holds my design work for now, with more on the way.
           </p>
         </ScrollReveal>
       </div>
