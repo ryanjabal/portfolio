@@ -17,7 +17,14 @@ export default function AboutPage() {
 
       <div className="mt-12 space-y-8 text-base leading-relaxed">
         <ScrollReveal delay={100}>
-          <p className="text-muted">In Progress!</p>
+          <p className="text-muted">
+            I&apos;m Ryan, a Notre Dame student from the Bay Area studying
+            business, AI analytics and industrial design. I&apos;m curious about
+            how things are made and how they reach the people who need them,
+            which has me wandering between product design, technology, and
+            business depending on the day. This site holds my design work for
+            now, with more on the way as I keep exploring!
+          </p>
         </ScrollReveal>
       </div>
     </div>
