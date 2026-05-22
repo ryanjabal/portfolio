@@ -17,8 +17,7 @@ export default function ContactPage() {
 
       <ScrollReveal delay={100}>
         <p className="mt-6 text-lg text-muted max-w-lg leading-relaxed">
-          Have a project in mind or just want to say hello? I&apos;d love to
-          hear from you.
+          I&apos;d love to hear from you.
         </p>
       </ScrollReveal>
 
