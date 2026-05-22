@@ -26,7 +26,7 @@ const cinzel = Cinzel({
 });
 
 export const metadata: Metadata = {
-  title: "Ryan Jabal — Design Portfolio",
+  title: "Ryan Jabal",
   description:
     "Design portfolio showcasing brand identity, product design, and digital experiences.",
 };
