@@ -56,23 +56,31 @@ function Header() {
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link
           href="/"
-          className="text-sm font-semibold tracking-tight hover:text-muted transition-colors"
+          className="text-sm font-semibold tracking-tight whitespace-nowrap hover:text-muted transition-colors"
         >
           Ryan Jabal
         </Link>
-        <ul className="flex items-center gap-8">
+        <ul className="flex items-center gap-4 sm:gap-8">
           <li>
             <Link
               href="/#work"
-              className="text-sm text-muted hover:text-foreground transition-colors"
+              className="text-xs sm:text-sm whitespace-nowrap text-muted hover:text-foreground transition-colors"
             >
               Work
             </Link>
           </li>
           <li>
             <Link
+              href="/side-projects"
+              className="text-xs sm:text-sm whitespace-nowrap text-muted hover:text-foreground transition-colors"
+            >
+              Side Projects
+            </Link>
+          </li>
+          <li>
+            <Link
               href="/about"
-              className="text-sm text-muted hover:text-foreground transition-colors"
+              className="text-xs sm:text-sm whitespace-nowrap text-muted hover:text-foreground transition-colors"
             >
               About
             </Link>
@@ -80,7 +88,7 @@ function Header() {
           <li>
             <Link
               href="/contact"
-              className="text-sm text-muted hover:text-foreground transition-colors"
+              className="text-xs sm:text-sm whitespace-nowrap text-muted hover:text-foreground transition-colors"
             >
               Contact
             </Link>

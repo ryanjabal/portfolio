@@ -124,6 +124,41 @@ body::before {
   50%       { transform: translate(-50%, calc(-50% - 70px)); }
 }
 
+/* Side-projects scatter grid — resting tilt/offset, with a gentle idle float */
+.sp-card {
+  transform: rotate(var(--rot)) translateY(var(--y));
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sp-float-a {
+  0%, 100% { transform: rotate(var(--rot)) translateY(var(--y)); }
+  50%      { transform: rotate(var(--rot)) translateY(calc(var(--y) - 10px)); }
+}
+
+@keyframes sp-float-b {
+  0%, 100% { transform: rotate(var(--rot)) translateY(var(--y)); }
+  50%      { transform: rotate(var(--rot)) translateY(calc(var(--y) - 7px)); }
+}
+
+@keyframes sp-float-c {
+  0%, 100% { transform: rotate(var(--rot)) translateY(var(--y)); }
+  50%      { transform: rotate(var(--rot)) translateY(calc(var(--y) - 13px)); }
+}
+
+/* Stack cards upright on small screens — no tilt, no float */
+@media (max-width: 640px) {
+  .sp-card {
+    --rot: 0deg;
+    --y: 0px;
+    animation: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sp-card { animation: none; }
+}
+
 /* Scroll indicator */
 @keyframes scrollBounce {
   0%, 100% { transform: translateY(0); opacity: 0.7; }
